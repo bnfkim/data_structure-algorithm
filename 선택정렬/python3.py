@@ -7,7 +7,7 @@ def sel_sort(a):
             if a[j] > a[max_idx]:
                 max_idx = j
 
-        # 최솟값과 맨 앞 원소의 위치 변경 (swap)
+        # 최댓값과 맨 앞 원소의 위치 변경 (swap)
         a[i], a[max_idx] = a[max_idx], a[i]
 
 list = [2,4,5,1,3]
